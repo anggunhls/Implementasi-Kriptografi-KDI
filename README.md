@@ -36,9 +36,10 @@ Langkah-langkah pembangkitan kunci pada RSA adalah sebagai berikut:
 6. Menghitung eksponen privat `d`
    d × e ≡ 1 (mod φ(n))
 
-Setelah proses tersebut diperoleh pasangan kunci:  
+Setelah proses tersebut diperoleh pasangan kunci:    
 Public Key = (e, n)  
-Private Key = (d, n)
+
+Private Key = (d, n)  
 
 ---
 
