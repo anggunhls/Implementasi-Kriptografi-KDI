@@ -2,14 +2,14 @@
 Anggun Ismi Nurhalisa - 24051204039 - TI B 24
 
 ## Deskripsi
-Repository ini berisi implementasi sederhana algoritma kriptografi **RSA (Rivest–Shamir–Adleman)** menggunakan bahasa **Python**. 
+Repository ini berisi implementasi sederhana algoritma kriptografi RSA (Rivest–Shamir–Adleman) menggunakan bahasa Python. 
 
-Implementasi ini bertujuan untuk menunjukkan bagaimana proses **pembangkitan kunci (key generation), enkripsi, dan dekripsi** dilakukan secara matematis pada algoritma RSA.
+Implementasi ini bertujuan untuk menunjukkan bagaimana proses pembangkitan kunci (key generation), enkripsi, dan dekripsi dilakukan secara matematis pada algoritma RSA.
 
 ---
 
 # Konsep RSA
-RSA merupakan algoritma **kriptografi kunci publik (public-key cryptography)** atau **kriptografi asimetris**. Algoritma ini menggunakan dua kunci yang berbeda, yaitu:
+RSA merupakan algoritma kriptografi kunci publik (public-key cryptography) atau kriptografi asimetris. Algoritma ini menggunakan dua kunci yang berbeda, yaitu:
 
 - **Kunci Publik (Public Key)** → digunakan untuk proses enkripsi pesan  
 - **Kunci Privat (Private Key)** → digunakan untuk proses dekripsi pesan  
@@ -52,10 +52,10 @@ C = M^e mod n
 
 Keterangan:
 
-- **M** = plaintext dalam bentuk angka  
-- **e** = eksponen publik  
-- **n** = modulus  
-- **C** = ciphertext (hasil enkripsi)
+- M = plaintext dalam bentuk angka  
+- e = eksponen publik  
+- n = modulus  
+- C = ciphertext (hasil enkripsi)
 
 Hasil dari proses ini adalah ciphertext yang tidak dapat dibaca tanpa kunci privat.
 
@@ -68,9 +68,9 @@ M = C^d mod n
 
 Keterangan:
 
-- **C** = ciphertext  
-- **d** = eksponen privat  
-- **M** = plaintext
+- C = ciphertext  
+- d = eksponen privat  
+- M = plaintext
 
 Hasil dekripsi kemudian dikonversi kembali dari angka menjadi karakter menggunakan kode ASCII sehingga menghasilkan pesan asli.
 
@@ -80,12 +80,12 @@ Hasil dekripsi kemudian dikonversi kembali dari angka menjadi karakter menggunak
 
 Program RSA yang dibuat memiliki beberapa fitur utama:
 
-- Implementasi algoritma RSA **tanpa menggunakan library kriptografi**
-- Proses **pembangkitan kunci (key generation)**
-- Proses **enkripsi plaintext menjadi ciphertext**
-- Proses **dekripsi ciphertext kembali menjadi plaintext**
-- Implementasi **modular exponentiation manual**
-- Menampilkan **langkah-langkah proses secara step-by-step**
+- Implementasi algoritma RSA tanpa menggunakan library kriptografi
+- Proses pembangkitan kunci (key generation)
+- Proses enkripsi plaintext menjadi ciphertext
+- Proses dekripsi ciphertext kembali menjadi plaintext
+- Implementasi modular exponentiation manual
+- Menampilkan langkah-langkah proses secara step-by-step
 
 ---
 
