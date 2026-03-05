@@ -91,17 +91,12 @@ Program RSA yang dibuat memiliki beberapa fitur utama:
 
 # Cara Menjalankan Program
 
-1. Clone repository dari GitHub
-
-git clone https://github.com/USERNAME/Implementasi-Kriptografi-KDI.git
-
-2. Masuk ke folder repository
-
-cd Implementasi-Kriptografi-KDI
-
-3. Jalankan program
-
-phyton RSA_KDI_Anggun.py
+1. Clone repository dari GitHub  
+   git clone https://github.com/USERNAME/Implementasi-Kriptografi-KDI.git
+2. Masuk ke folder repository  
+   cd Implementasi-Kriptografi-KDI
+3. Jalankan program  
+   phyton RSA_KDI_Anggun.py
 ---
 
 Nama : Anggun Ismi Nurhalisa  
