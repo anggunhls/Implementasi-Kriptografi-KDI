@@ -29,4 +29,106 @@ Langkah-langkah pembangkitan kunci pada RSA adalah sebagai berikut:
    n = p × q
 3. Menghitung fungsi totien Euler
    φ(n) = (p − 1)(q − 1)
+4. Memilih bilangan eksponen publik `e` yang memenuhi syarat
+   1 < e < φ(n)
+   gcd(e, φ(n)) = 1
+5. Menghitung eksponen privat `d`
+   d × e ≡ 1 (mod φ(n))
 
+Setelah proses tersebut diperoleh pasangan kunci:
+Public Key = (e, n)
+Private Key = (d, n)
+
+---
+
+## 2. Proses Enkripsi
+
+Plaintext (pesan asli) terlebih dahulu diubah menjadi bentuk numerik menggunakan kode ASCII.
+
+Proses enkripsi dilakukan menggunakan rumus:
+C = M^e mod n
+
+Keterangan:
+
+- **M** = plaintext dalam bentuk angka  
+- **e** = eksponen publik  
+- **n** = modulus  
+- **C** = ciphertext (hasil enkripsi)
+
+Hasil dari proses ini adalah ciphertext yang tidak dapat dibaca tanpa kunci privat.
+
+---
+
+## 3. Proses Dekripsi
+
+Ciphertext yang telah diterima akan dikembalikan menjadi plaintext menggunakan kunci privat dengan rumus:
+M = C^d mod n
+
+Keterangan:
+
+- **C** = ciphertext  
+- **d** = eksponen privat  
+- **M** = plaintext
+
+Hasil dekripsi kemudian dikonversi kembali dari angka menjadi karakter menggunakan kode ASCII sehingga menghasilkan pesan asli.
+
+---
+
+# Fitur Program
+
+Program RSA yang dibuat memiliki beberapa fitur utama:
+
+- Implementasi algoritma RSA **tanpa menggunakan library kriptografi**
+- Proses **pembangkitan kunci (key generation)**
+- Proses **enkripsi plaintext menjadi ciphertext**
+- Proses **dekripsi ciphertext kembali menjadi plaintext**
+- Implementasi **modular exponentiation manual**
+- Menampilkan **langkah-langkah proses secara step-by-step**
+
+---
+
+# Cara Menjalankan Program
+
+1. Pastikan **Python sudah terinstall** pada komputer.
+2. Jalankan file program dengan perintah berikut:
+python RSA_KDI_Anggun.py
+
+3. Masukkan dua bilangan prima untuk proses pembangkitan kunci.
+
+Contoh input:
+Masukkan p (prima): 79
+Masukkan q (prima): 97
+
+4. Masukkan plaintext yang ingin dienkripsi.
+Contoh:
+Masukkan plaintext: anggun
+
+Program kemudian akan menampilkan:
+
+- proses **key generation**
+- proses **enkripsi**
+- proses **dekripsi**
+- hasil akhir plaintext
+
+---
+
+# Contoh Output
+
+Contoh hasil eksekusi program:
+Plaintext : anggun
+Ciphertext : [....]
+Plaintext hasil dekripsi : anggun
+
+Jika proses berjalan dengan benar, maka **plaintext hasil dekripsi akan sama dengan plaintext awal**.
+
+---
+
+# Informasi Tugas
+
+Nama : Anggun Ismi Nurhalisa  
+NIM : 24051204039  
+Kelas : TI 24 B
+Mata Kuliah : Keamanan Data dan Informasi
+Topik Algoritma : RSA (Rivest–Shamir–Adleman)
+
+---
