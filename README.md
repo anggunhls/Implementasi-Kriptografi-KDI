@@ -90,53 +90,24 @@ Program RSA yang dibuat memiliki beberapa fitur utama:
 
 # Cara Menjalankan Program
 
-1. Pastikan **Python sudah terinstall** pada komputer.
-2. Jalankan file program dengan perintah berikut:
+## Cara Menjalankan Program
+
+1. Clone repository dari GitHub
+
+git clone https://github.com/USERNAME/Implementasi-Kriptografi-KDI.git
+
+2. Masuk ke folder repository
+
+cd Implementasi-Kriptografi-KDI
+
+3. Jalankan program
 
 python RSA_KDI_Anggun.py
-
-4. Masukkan dua bilangan prima untuk proses pembangkitan kunci.
-
-Contoh input:
-
-Masukkan p (prima): 79
-
-Masukkan q (prima): 97
-
-4. Masukkan plaintext yang ingin dienkripsi.
-Contoh:
-
-Masukkan plaintext: anggun
-
-Program kemudian akan menampilkan:
-
-- proses **key generation**
-- proses **enkripsi**
-- proses **dekripsi**
-- hasil akhir plaintext
-
----
-
-# Contoh Output
-
-Contoh hasil eksekusi program:
-
-Plaintext : anggun
-
-Ciphertext : [....]
-
-Plaintext hasil dekripsi : anggun
-
-Jika proses berjalan dengan benar, maka **plaintext hasil dekripsi akan sama dengan plaintext awal**.
-
 ---
 
 Nama : Anggun Ismi Nurhalisa  
 NIM : 24051204039  
 Kelas : TI 24 B
-
 Mata Kuliah : Keamanan Data dan Informasi
-
-Topik Algoritma : RSA (Rivest–Shamir–Adleman)
 
 ---
