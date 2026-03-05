@@ -30,7 +30,7 @@ Langkah-langkah pembangkitan kunci pada RSA adalah sebagai berikut:
    n = p × q
 3. Menghitung fungsi totien Euler
    φ(n) = (p − 1)(q − 1)
-4. Memilih bilangan eksponen publik `e` yang memenuhi syarat
+4. Memilih bilangan eksponen publik `e` yang memenuhi syarat  
    1 < e < φ(n)
    
    gcd(e, φ(n)) = 1
@@ -92,7 +92,7 @@ Program RSA yang dibuat memiliki beberapa fitur utama:
 # Cara Menjalankan Program
 
 1. Clone repository dari GitHub  
-   git clone https://github.com/USERNAME/Implementasi-Kriptografi-KDI.git
+   git clone https://github.com/anggunhls/Implementasi-Kriptografi-KDI.git
 2. Masuk ke folder repository  
    cd Implementasi-Kriptografi-KDI
 3. Jalankan program  
