@@ -1,4 +1,5 @@
 # Implementasi Algoritma RSA (Kriptografi Asimetris)
+Anggun Ismi Nurhalisa - 24051204039 - TI B 24
 
 ## Deskripsi
 Repository ini berisi implementasi sederhana algoritma kriptografi **RSA (Rivest–Shamir–Adleman)** menggunakan bahasa **Python**. 
@@ -133,7 +134,9 @@ Jika proses berjalan dengan benar, maka **plaintext hasil dekripsi akan sama den
 Nama : Anggun Ismi Nurhalisa  
 NIM : 24051204039  
 Kelas : TI 24 B
+
 Mata Kuliah : Keamanan Data dan Informasi
+
 Topik Algoritma : RSA (Rivest–Shamir–Adleman)
 
 ---
