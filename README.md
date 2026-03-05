@@ -31,8 +31,7 @@ Langkah-langkah pembangkitan kunci pada RSA adalah sebagai berikut:
 3. Menghitung fungsi totien Euler
    φ(n) = (p − 1)(q − 1)
 4. Memilih bilangan eksponen publik `e` yang memenuhi syarat  
-   1 < e < φ(n)
-   
+   1 < e < φ(n)  
    gcd(e, φ(n)) = 1
 6. Menghitung eksponen privat `d`
    d × e ≡ 1 (mod φ(n))
