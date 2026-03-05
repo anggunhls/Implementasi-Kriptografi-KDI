@@ -91,9 +91,10 @@ Program RSA yang dibuat memiliki beberapa fitur utama:
 
 1. Pastikan **Python sudah terinstall** pada komputer.
 2. Jalankan file program dengan perintah berikut:
+
 python RSA_KDI_Anggun.py
 
-3. Masukkan dua bilangan prima untuk proses pembangkitan kunci.
+4. Masukkan dua bilangan prima untuk proses pembangkitan kunci.
 
 Contoh input:
 
@@ -103,6 +104,7 @@ Masukkan q (prima): 97
 
 4. Masukkan plaintext yang ingin dienkripsi.
 Contoh:
+
 Masukkan plaintext: anggun
 
 Program kemudian akan menampilkan:
@@ -117,15 +119,16 @@ Program kemudian akan menampilkan:
 # Contoh Output
 
 Contoh hasil eksekusi program:
+
 Plaintext : anggun
+
 Ciphertext : [....]
+
 Plaintext hasil dekripsi : anggun
 
 Jika proses berjalan dengan benar, maka **plaintext hasil dekripsi akan sama dengan plaintext awal**.
 
 ---
-
-# Informasi Tugas
 
 Nama : Anggun Ismi Nurhalisa  
 NIM : 24051204039  
