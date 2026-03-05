@@ -96,7 +96,9 @@ python RSA_KDI_Anggun.py
 3. Masukkan dua bilangan prima untuk proses pembangkitan kunci.
 
 Contoh input:
+
 Masukkan p (prima): 79
+
 Masukkan q (prima): 97
 
 4. Masukkan plaintext yang ingin dienkripsi.
